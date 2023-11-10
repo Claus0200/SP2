@@ -29,6 +29,6 @@ public abstract class ACar implements Car {
 
     @Override
     public String toString() {
-        return make + " " + model + "; " + registrationNumber + ", " + numberOfDoors + " doors";
+        return make + " " + model + "; " + registrationNumber + ", " + numberOfDoors + " doors, ";
     }
 }
